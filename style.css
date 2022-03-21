@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:blue;
+    --sec-color:rgb(75, 175, 241);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+    background-color: rgb(209, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#headingtotal{
+    font-size: 2.5rem;
+}
+
+button{
+    padding: 3px;
+    width: 150px;
+    font-size: x-large;
+    background-color: rgb(7, 71, 16);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#inputAmount{
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#inputDesc{
+    padding: 5px;
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0.5rem;
+}
